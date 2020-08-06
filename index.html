@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<header>
+    <nav class="main-nav">
+        <ul>
+            <li>
+                <a href="{{site.url}}">Inicio</a>
+            </li>
+            <li>
+                <a href="{{site.url}}/sucursales.html">Sucursales</a>
+            </li>
+            <li>
+                <a href="{{site.url}}/productos.html">Productos</a>
+            </li>
+            <li>
+                <a href="{{site.url}}/ofertas">Ofertas</a>
+            </li>
+        </ul>
+    </nav>
+    <!--<h2>{{ site.title }}</h2>-->
+
+</header>
+
+<body>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <h3>Selecciona un producto ...</h3>
+    <div class="productos">
+        <user-card name="Carne" avatar="/img/carne.jpg">
+            <div slot="description">Una pieza de carne asada en su punto, con una guarnición sencilla, es perfecta para dar de comer a un grupo de ocho personas, y en general, es un plato que siempre gusta a todo el mundo.
+            </div>
+            <div slot="price">35 EUR</div>
+        </user-card>
+        <user-card name="Pasta" avatar="/img/pasta.jpg">
+            <div slot="description">La pasta es un conjunto de alimentos preparados con una masa cuyo ingrediente básico es la harina,mezclada con agua, y a la cual se puede añadir sal, huevo u otros ingredientes, conformando un producto que generalmente se cuece en agua hirviendo.</div>
+            <div slot="price">15 EUR</div>
+        </user-card>
+        <user-card name="Ensalada" avatar="/img/ensalada.jpg">
+            <div slot="description">La ensalada rusa o ensaladilla rusa, también conocida como ensalada Olivier, es un plato típico en varios países de Europa, Asia y América. </div>
+            <div slot="price">8 EUR</div>
+        </user-card>
+
+        <script src="index.js"></script>
+    </div>
+</body>
+<footer>
+    <p>Awesome Web Components</p>
+</footer>
+
+</html>

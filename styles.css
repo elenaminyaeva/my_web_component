@@ -1,0 +1,46 @@
+h3 {
+    color: purple;
+}
+
+.productos {
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.productos>user-card {
+    margin: 6px;
+}
+
+header {
+    padding: 20px;
+    background-color: rebeccapurple;
+    height: 70px;
+    margin: 0 auto;
+    display: flex;
+    text-align: left;
+}
+
+.main-nav ul {
+    margin: 1em 0 .5em;
+}
+
+.main-nav li {
+    display: inline;
+}
+
+.main-nav a {
+    color: white;
+    display: inline-block;
+    padding: .5em 0.5em;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 60px;
+    background-color: black;
+    text-align: center;
+    width: 100%;
+    color: white;
+}

@@ -1,7 +1,7 @@
 const template = document.createElement('template');
 template.innerHTML = `
 <style>
-    .user-card {
+    .product-card {
         font-family: 'Arial', sans-serif;
         background: #f4f4f4;
         width: 500px;
@@ -15,12 +15,12 @@ template.innerHTML = `
         border-bottom: darkorchid 5px solid;
     }
 
-    .user-card img {
+    .product-card img {
         width: 100%;
         
     }
 
-    .user-card button {
+    .product-card button {
         cursor: pointer;
         background: darkorchid;
         color: #fff;
@@ -32,7 +32,7 @@ template.innerHTML = `
 
     }
 </style>
-<div class="user-card">
+<div class="product-card">
     <img />
     <div>
         <h3></h3>
@@ -52,7 +52,7 @@ template.innerHTML = `
 <div class="selection"></div>
 `;
 
-class UserCard extends HTMLElement {
+class ProductCard extends HTMLElement {
     constructor() {
         super();
         this.showInfo;
@@ -105,4 +105,4 @@ class UserCard extends HTMLElement {
 }
 
 
-window.customElements.define('user-card', UserCard);
+window.customElements.define('product-card', ProductCard);

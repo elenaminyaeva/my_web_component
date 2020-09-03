@@ -130,7 +130,7 @@ disconnectedCallback() {
 + Extend the template with *button*
 
 ```
-<button id="selectbtn">Select</button>
+<button id="selectbtn">Hide Info</button>
 ```
 
 + Add *Events* --> "Hide Info"
@@ -162,11 +162,6 @@ toggleInfo() {
     }
 ```
 
-+ Extend the template with *button*
-
-```
-<button id="selectbtn">Select</button>
-```
 
 ## Result 
 
